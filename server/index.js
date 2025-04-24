@@ -30,7 +30,7 @@ app.use(
 );
 
 //port 3000是react預設port
-
-app.listen(8080, () => {
-  console.log("後端伺服器正在監聽 port 8080");
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log("後端伺服器正在監聽 port ${PORT}");
 });
