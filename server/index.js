@@ -32,5 +32,5 @@ app.use(
 //port 3000是react預設port
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
-  console.log("後端伺服器正在監聽 port ${PORT}");
+  console.log(`後端伺服器正在監聽 port ${PORT}`);
 });
